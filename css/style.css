@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+    background-color: rgb(60, 56, 56);
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 56, 56);
+}
+
+h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.228);
+}
+
+body div.white-box {
+    width: 650px;
+    height: 650px;
+    background-color: rgba(255, 255, 255, 0.228);
+    border-radius: 7%;
+    padding: 10px;
+    margin: auto;
+    display: inline-block;
+}
+
+.lose {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(156, 20, 36);
+}
+
+.win {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(28, 173, 137);
+}
+
+.smile button {
+    border-radius: 7%;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button3 {
+    margin: 12px 10px;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7%;
+    color: rgb(60, 56, 56);
+    background-color: grey;
+    text-align: center;
+    transition: all 1s;
+    box-shadow: 0px 10px 14px -7px #303030;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.228);
+    margin: -1px;
+    border-width: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.board-container {
+    cursor: pointer;
+}
+
+.stats-row {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(192, 192, 192);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    border-radius: 15px;
+}
+
+.lives {
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.safe-click button {
+    border-radius: 7%;
+    background-color: grey;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.timer {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 85px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    color: ivory;
+    background-color: rgb(160, 160, 160);
+    border: 1px solid rgba(244, 244, 244, 0.365);
+    width: 30px;
+    height: 30px;
+    transition: .5s;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="init(4,2)">
+    <div class="white-box">
+        <h1></h1>
+        <div>
+            <button class="Beginner button3" onclick="init(4,2)">Beginner</button>
+            <button class="Medium button3" onclick="init(8,12)">Medium</button>
+            <button class="Expert button3" onclick="init(12,30)">Expert</button>
+        </div>
+        <div class="stats-row">
+            <h2 class="lives"></h2>
+            <h2 class="safe-click"><button onclick="safeClick()"></button></h2>
+            <h2 class="smile"></h2>
+            <h2 class="timer">000</h2>
+        </div>
+        <div class="board-container"></div>
+        <div class="points"></div>
+    </div>
+    <p>Project By Yarden Rivni</p>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
